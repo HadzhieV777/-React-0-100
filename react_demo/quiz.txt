@@ -1,0 +1,18 @@
+1. Why do we need to "import React from react" in our files?
+-React is what defines JSX
+
+2. If console.log(page) in index.js, what would show up?
+-A JS Object. React elements that describe what React should
+eventually add to the real DOM for us.
+
+
+3.What does it mean for something to be "declarative" instead of "imperative"?
+- "Declarative" - I can tell the computer WHAT to do and expect 
+it to handle the details.
+- "Imperative" - I need to tell the computer HOW to do each step
+
+4. What does it meant for something to be "composable"?
+- We have small pieces that we can put together to make something
+larger.
+
+

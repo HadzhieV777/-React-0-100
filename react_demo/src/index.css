@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: #D1D9E6;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-bar a {
+  color: #00bbff;
+  text-align: left;
+  padding: 33px 1px 33px 0px;
+  display: inline-flex;
+  margin-left: 0;
+  text-decoration: none;
+  padding-right: 72em;
+  font-size: 16px;
+  
+
+}
+
+.nav-bar img {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.nav-bar li a:hover {
+  text-shadow: 0 0 3px #00bbff;
+  background-color: rgba(179, 174, 174, 0.101);
+}
+
+.nav-bar ul {
+  padding-top: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #21222A;
+  font-family: Ubuntu, Helvetica, sans-serif;
+}
+
+.nav-bar li {
+  list-style-type: none;
+}
+
+
+.home li {
+  margin-top: 4px;
+  padding-block: 5px;
+}
+
+.home li:hover {
+  text-shadow: 0 3px 3px #00bbff;
+}
+
+.home-ul {
+  width: 800px;
+  height: 550px;
+  background:#282D35;
+  box-shadow: 2px 2px 2px 2px black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  padding-left: 10px;
+  margin-right: 5px;
+  padding: 57px 27px;
+  background-image: url(../public/logo512.png);
+  background-size: 220px;
+  background-repeat: no-repeat;
+  background-position-x: right 5% ;
+  background-position-y: bottom 2%;
+}
+
+.home-ul h2 {
+  padding: 5px 20px;
+  margin: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #00bbff;
+  font-weight: 1000;
+  font-size: 40px;
+  font-family: Ubuntu, Helvetica, sans-serif;
+}
+
+.home-ul li {
+  padding: 10px;
+  margin-left: 25px;
+  display: grid;
+  grid-template-columns: 220fr 12fr;
+  font-size: 17px;
+  cursor: pointer;
+  color: aliceblue;
+  padding-block: 10px;
+  font-family: 'Ubuntu', cursive;
+}
+
+.home-ul li:hover {
+  border-radius: 15px;
+  background: #918c8ce2;
+  color: white;
+  padding: 10px;
+  width: 90%;
+  margin-right: 25px;
+}
+
+.home-ul li i {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: #21222A;
+  color: white;
+  display: inline-flex;
+  text-shadow: 0 0 3px #00bbff;
+
+}
+
+.footer h4 {
+  padding-left: 47em;
+}
