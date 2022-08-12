@@ -1,0 +1,1 @@
+This app is created for exercising the React props
