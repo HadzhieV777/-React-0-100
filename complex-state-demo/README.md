@@ -1,4 +1,4 @@
-#                                             Using React useState with an object
+# Using React useState with an object
 
 Data in state should be treated as immutable - the values should not be mutated directly, but instead be replaced with a new one. The corresponding set method is then called with a new object in order for the change to occur.
 
