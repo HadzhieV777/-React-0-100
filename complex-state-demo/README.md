@@ -1,4 +1,4 @@
-Using React useState with an object
+# Using React useState with an object
 
 Data in state should be treated as immutable - the values should not be mutated directly, but instead be replaced with a new one. The corresponding set method is then called with a new object in order for the change to occur.
 
@@ -8,7 +8,7 @@ This is because re-renders in React are triggered whenever a change in state is 
 
 You have several options to properly update data stored as objects in React state. Your implementation will depend on the complexity of the component you are creating.
 
-Create and Pass a New Object
+# Create and Pass a New Object
 
 Both these solutions create a brand new object that is being passed to replace the current state, instead of directly mutating the existing state. Directly manipulating user.name does not work because it does not trigger a re-render.
 
@@ -17,12 +17,12 @@ Use the Spread Operator
 You’re likely using an object because you have multiple pieces of data you want to store and use within state. In the below example, you may only want to manipulate one input at a time in a re-render. The spread operator facilitates this by unpacking existing properties of an object. Any consequent values are updated.
 
 
-Why Won’t Object.assign() Update State?
+# Why Won’t Object.assign() Update State?
 
 The Object.assign() method takes 2 arguments - a target and at least one source and returns the target after copying the sources’ properties. Object.assign() won’t trigger a re-render unless the target provided is a brand new object. When the target is the original object, it still has the same identity, similar to updating a property directly. At this point, the syntax gets clunkier too, so it is likely easier to read without this additional method.
 
 
-When Should an Object Be Used in State?
+# When Should an Object Be Used in State?
 
 Following basic programming principles, break down state into “atoms” and use simpler values (primitives) when possible.
 
