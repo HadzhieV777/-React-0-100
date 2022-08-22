@@ -14,10 +14,10 @@ In HTML, a <textarea> element defines its text by its children.
 
 In React, a <textarea> uses a value attribute instead. This way, a form using a <textarea> can be written very similarly to a form that uses a single-line input.
 
-The select Tag
+# The select Tag
 
 In HTML, <select> creates a drop-down list. React, instead of using this selected attribute, uses a value attribute on the root select tag. This is more convenient in a controlled component because you only need to update it in one place.
 
-Note
+# Note
 
 You can pass an array into the value attribute, allowing you to select multiple options in a select tag.
