@@ -8,7 +8,7 @@ In HTML, form elements such as <input>, <textarea>, and <select> typically maint
 
 We can combine the two by making the React state be the “single source of truth”. Then the React component that renders a form also controls what happens in that form on subsequent user input. An input form element whose value is controlled by React in this way is called a “controlled component”.
 
-The textarea Tag
+# The textarea Tag
 
 In HTML, a <textarea> element defines its text by its children.
 
