@@ -2,8 +2,6 @@
 
 # CSS states
 
-
-
 - The :hover state becomes present when a user hovers over a button, by bringing their mouse or trackpad over it, without selecting it or clicking on it.
 
 - To make the change less sudden, pair :hover with the transition property.
