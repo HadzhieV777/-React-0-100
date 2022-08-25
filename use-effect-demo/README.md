@@ -14,6 +14,7 @@
 
  - (Out)side effects!
    * localStorage
+   * 
    * API/database interactions
    * Subscriptions (e.g. web sockets)
    * Syncing 2 different internal states together
