@@ -1,4 +1,4 @@
- What are React's primary tasks?
+# What are React's primary tasks?
 
  - Work with the DOM/browsers to render UI to
    the page.
@@ -10,7 +10,7 @@
  - Keep the UI updated whenever state change occur.
 
 
-What can't React handle on its own?
+# What can't React handle on its own?
 
  - (Out)side effects!
    * localStorage
